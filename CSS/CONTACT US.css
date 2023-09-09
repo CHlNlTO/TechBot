@@ -1,0 +1,279 @@
+
+.headerbackground {
+	/* Transform */
+	position: fixed;
+	z-index: 90;
+	top: 0vh;
+	height: 13vh;
+	width: 213vh;
+	/* Design */
+	box-shadow:  0 4px 20px 0 #bf9000,
+				 0 6px 20px 0 #bf9000;
+	}
+.wow-icon {
+	/* Transform */
+	height: 13vh;
+	width: 13vh;
+	position: fixed;
+	z-index: 100;
+	left: 5.5vh;
+	}
+.header {
+	/* Design */
+	font-family: Bahnschrift;
+	color: #ffffff;
+	background-color: #ffdc32;
+	text-decoration: none;
+	/* Transform */
+	position: fixed;
+	z-index: 100;
+	top: 3.5vh;
+	left: 21vh;
+	font-size: 6.2vh;
+	}
+
+
+
+.NAVBAR a {
+	/* Design */
+	font-family: Bahnschrift;
+	text-decoration: none;
+	color: #ffffff;
+	}
+.NAVBAR {
+	/* Transform */
+	position: fixed;
+	z-index: 100;
+	word-spacing: 6vh;
+	top: 5vh;
+	right: 16.5vh;
+	font-size: 3vh;
+	}
+/* Animation Hover */
+.NAVBAR a:hover {
+	color: #0a2a40;
+	}
+.NAVBAR .Contact{
+	color: #0a2a40;
+	}
+.NAVBAR .Contact:hover {
+	color: #bf9000;
+}
+
+
+
+.CONTACT-US {
+	/* Design */
+	font-family: Arial Black;
+	text-decoration: none;
+	color: #0a2a40;
+	/* Transform */
+	position: absolute;
+	font-size: 7vh;
+	top: 23vh;
+	left: 78vh;
+}
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	font-family: 'Bahnschrift';
+}
+
+a {
+	text-decoration: none;
+}
+
+body{
+  background: url('') no-repeat top center;
+  background-size: cover;
+  height: 100vh;
+
+}
+
+
+
+.wrapper{
+  position: absolute;
+  top: 65%;
+  transform: translateY(-50%);
+  width: 100%;
+  padding: 0 20px;
+
+}
+
+
+
+.contact-form{
+
+  display: flex;
+  max-width: 550px;
+  margin: 0 auto;
+  background: rgba(255,220,50,1);
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+
+
+.input-fields{
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+}
+
+
+
+.input-fields,
+.msg{
+  width: 48%;
+}
+
+
+
+.input-fields .input,
+.msg textarea{
+  margin: 10px 0;
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid #0a2a40;
+  padding: 10px;
+  color: #0a2a40;
+  width: 100%;
+}
+
+
+
+.msg textarea{
+  height: 212px;
+}
+
+
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #0a2a40;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #0a2a40;
+}
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #0a2a40;
+}
+
+.btn {
+    background: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: #0a2a40;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px){
+  .contact-form{
+    flex-direction: column;
+  }
+  .msg textarea{
+    height: 80px;
+  }
+  .input-fields,
+  .msg{
+    width: 100%;
+  }
+}
+
+
+
+.footer {
+	/* Transform */
+	position: absolute;
+	z-index: 80;
+	top: 100vh;
+	height: 15vh;
+	width: 210.3vh;
+	}
+.footer-icon {
+	/* Transform */
+	height: 10vh;
+	width: 10vh;
+	position: absolute;
+	z-index: 100;
+	top: 102vh;
+	left: 4vh;
+	}
+h4 {
+	/* Design */
+	font-family: Bahnschrift;
+	color: #ffffff;
+	text-decoration: none;
+	/* Transform */
+	position: absolute;
+	z-index: 100;
+	top: 105vh;
+	left: 15.5vh;
+	font-size: 5vh;
+	}
+h5 {
+	/* Design */
+	font-family: Bahnschrift;
+	color: #ffffff;
+	text-decoration: none;
+	/* Transform */
+	position: absolute;
+	z-index: 100;
+	top: 109.5vh;
+	left: 16vh;
+	font-size: 3vh;
+	}
+.blueline1 {
+	/* Transform */
+	position: absolute;
+	z-index: 80;
+	top: 106vh;
+	left: 62vh;
+	height: 4vh;
+	width: .8vh;
+	}
+.blueline2 {
+	/* Transform */
+	position: absolute;
+	z-index: 80;
+	top: 106vh;
+	right: 63vh;
+	height: 4vh;
+	width: .8vh;
+	}
+.contact-details {
+	/* Design */
+	font-family: Arial Nova Condensed;
+	color: #ffffff;
+	text-decoration: none;
+	/* Transform */
+	position: absolute;
+	z-index: 100;
+	top: 105.8vh;
+	left: 87.1vh;
+	font-size: 2.99vh;
+	}
+.credits {
+	/* Design */
+	font-family: Arial Nova Condensed;
+	color: #ffffff;
+	text-decoration: none;
+	/* Transform */
+	position: absolute;
+	z-index: 100;
+	top: 105.8vh;
+	right: 10vh;
+	font-size: 3vh;
+}

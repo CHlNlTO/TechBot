@@ -1,0 +1,298 @@
+* {
+	padding: 0vh;
+	margin: 0vh;
+	outline: 0vh;
+	height: 0vh;
+}
+
+
+
+.headerbackground {
+	/* Transform */
+	position: fixed;
+	z-index: 90;
+	top: 0vh;
+	height: 13vh;
+	width: 213vh;
+	/* Design */
+	box-shadow:  0 4px 20px 0 #bf9000,
+				 0 6px 20px 0 #bf9000;
+	}
+.wow-icon {
+	/* Transform */
+	height: 13vh;
+	width: 13vh;
+	position: fixed;
+	z-index: 100;
+	left: 5.5vh;
+	}
+.header {
+	/* Design */
+	font-family: Bahnschrift;
+	color: #ffffff;
+	background-color: #ffdc32;
+	text-decoration: none;
+	/* Transform */
+	position: fixed;
+	z-index: 100;
+	top: 3.5vh;
+	left: 21vh;
+	font-size: 6.2vh;
+	}
+
+
+
+.NAVBAR a {
+	/* Design */
+	font-family: Bahnschrift;
+	text-decoration: none;
+	color: #ffffff;
+	}
+.NAVBAR {
+	/* Transform */
+	position: fixed;
+	z-index: 100;
+	word-spacing: 6vh;
+	top: 5vh;
+	right: 16.5vh;
+	font-size: 3vh;
+	}
+/* Animation Hover */
+/* Animation Hover */
+.NAVBAR a:hover {
+	color: #0a2a40;
+	}
+.NAVBAR .Gallery{
+	color: #0a2a40;
+	}
+.NAVBAR .Gallery:hover {
+	color: #bf9000;
+}
+
+
+
+#class-picture-1 {
+	/* Transform */
+	position: absolute;
+	height: 135vh;
+	width: 210.3vh;
+	top: 13vh;
+	cursor: pointer;
+	}
+#class-picture-2 {
+	/* Transform */
+	position: absolute;
+	height: 67.5vh;
+	width: 106.3vh;
+	top: 148vh;
+	cursor: pointer;
+}
+#class-picture-3 {
+	/* Transform */
+	position: absolute;
+	height: 67.5vh;
+	width: 106.3vh;
+	top: 148vh;
+	right: 0;
+	cursor: pointer;
+}
+
+
+
+.popup1 {
+	/* Transform */
+	position: fixed;
+	z-index: 80;
+	height: 120vh;
+	width: 190vh;
+	top: -10vh;
+	left: 10vh;
+	display: none;
+	}
+.popup2 {
+	/* Transform */
+	position: fixed;
+	z-index: 80;
+	height: 100vh;
+	width: 170vh;
+	top: 0vh;
+	left: 20vh;
+	display: none;
+	}
+.popup3 {
+	/* Transform */
+	position: fixed;
+	z-index: 80;
+	height: 70vh;
+	width: 120vh;
+	top: 20vh;
+	left: 45vh;
+	display: none;
+	}
+#arrowleft1 {
+	/* Transform */
+	position: fixed;
+	z-index: 90;
+	height: 20%;
+	top: 45vh;
+	left: 10vh;
+	transform: rotate(180deg);
+	display: none;
+	}
+#arrowleft2 {
+	/* Transform */
+	position: fixed;
+	z-index: 90;
+	height: 20%;
+	top: 45vh;
+	left: 10vh;
+	transform: rotate(180deg);
+	display: none;
+	}
+#arrowleft3 {
+	/* Transform */
+	position: fixed;
+	z-index: 90;
+	height: 20%;
+	top: 45vh;
+	left: 10vh;
+	transform: rotate(180deg);
+	display: none;
+	}
+#arrowright1 {
+	/* Transform */
+	position: fixed;
+	z-index: 90;
+	height: 20%;
+	top: 45vh;
+	right: 10vh;
+	display: none;
+	}
+#arrowright2 {
+	/* Transform */
+	position: fixed;
+	z-index: 90;
+	height: 20%;
+	top: 45vh;
+	right: 10vh;
+	display: none;
+}
+#arrowright3 {
+	/* Transform */
+	position: fixed;
+	z-index: 90;
+	height: 20%;
+	top: 45vh;
+	right: 10vh;
+	display: none;
+}
+.close {
+	/* Design */
+	font-family: Arial Narrow;
+	text-decoration: none;
+	color: #ffdc32;
+	/* Transform */
+	position: fixed;
+	z-index: 90;
+	top: 18vh;
+	right: 25vh;
+	font-size: 8vh;
+	transform: rotate(45deg);
+	display: none;
+	}
+.popup-bg {
+	/* Transform */
+	position: fixed;
+	z-index: 70;
+	width: 100%;
+	height: 100%;
+	opacity: 0.5;
+	display: none;
+}
+
+
+
+
+.footer {
+	/* Transform */
+	position: absolute;
+	z-index: 80;
+	top: 215.5vh;
+	height: 15vh;
+	width: 210.3vh;
+	}
+.footer-icon {
+	/* Transform */
+	height: 10vh;
+	width: 10vh;
+	position: absolute;
+	z-index: 100;
+	top: 217.5vh;
+	left: 4vh;
+	}
+h4 {
+	/* Design */
+	font-family: Bahnschrift;
+	color: #ffffff;
+	text-decoration: none;
+	/* Transform */
+	position: absolute;
+	z-index: 100;
+	top: 219.5vh;
+	left: 15.5vh;
+	font-size: 5vh;
+	}
+h5 {
+	/* Design */
+	font-family: Bahnschrift;
+	color: #ffffff;
+	text-decoration: none;
+	/* Transform */
+	position: absolute;
+	z-index: 100;
+	top: 224.5vh;
+	left: 16vh;
+	font-size: 3vh;
+	}
+.blueline1 {
+	/* Transform */
+	position: absolute;
+	z-index: 80;
+	top: 221.5vh;
+	left: 62vh;
+	height: 4vh;
+	width: .8vh;
+	}
+.blueline2 {
+	/* Transform */
+	position: absolute;
+	z-index: 80;
+	top: 221.5vh;
+	right: 63vh;
+	height: 4vh;
+	width: .8vh;
+	}
+.contact-details {
+	/* Design */
+	font-family: Arial Nova Condensed;
+	color: #ffffff;
+	text-decoration: none;
+	/* Transform */
+	position: absolute;
+	z-index: 100;
+	top: 221.3vh;
+	left: 87.1vh;
+	font-size: 2.99vh;
+	}
+.credits {
+	/* Design */
+	font-family: Arial Nova Condensed;
+	color: #ffffff;
+	text-decoration: none;
+	/* Transform */
+	position: absolute;
+	z-index: 100;
+	top: 221.3vh;
+	right: 10vh;
+	font-size: 3vh;
+}
